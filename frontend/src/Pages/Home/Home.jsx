@@ -1,10 +1,12 @@
 import React from 'react'
-import './Home.css'
+import HearoSection from '../../Components/Home/HearoSection/HearoSection'
+import WhyChooseUsSection from '../../Components/WhyChooseUsSection/WhyChooseUsSection'
 
 function Home() {
   return (
     <div className='home'>
-      <h1>this is the home page</h1>
+      <HearoSection/>
+      <WhyChooseUsSection/>
     </div>
   )
 }
